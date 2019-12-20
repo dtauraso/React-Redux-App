@@ -39,7 +39,7 @@ const Cat = props => {
     return (
         <div>
             <CatHeader>Cat Image</CatHeader>
-            {!props.cat && !props.isFetching && <CatText>Go ahead! Fetch a Cat Latest Change</CatText>}
+            {!props.cat && !props.isFetching && <CatText>Go ahead! Fetch a Cat</CatText>}
             {props.isFetching && (
                 <Loader type="Puff" color="#00BFFF" height={100} width={100} />
             )}
